@@ -11,6 +11,7 @@ public class LambdaTest {
     }
 
 
+
     public static void add(Consumer<Integer> consumer) {
         consumer.accept(10);
     }
