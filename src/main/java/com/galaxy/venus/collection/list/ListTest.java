@@ -10,6 +10,5 @@ public class ListTest {
         List<String> studentList = new ArrayList<>(Arrays.asList(new String[]{"123","234","345"}));
         String tempStr = studentList.parallelStream().collect(Collectors.joining("|","[","]"));
         System.out.println(tempStr);
-
     }
 }
