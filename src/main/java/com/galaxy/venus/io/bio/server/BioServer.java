@@ -25,6 +25,7 @@ public class BioServer {
                             String info = new String(b,0,data,"UTF-8");
                             System.out.println(info);
 
+
                         }
                         else{
                             break;
